@@ -32,7 +32,7 @@ if (isset($_POST['reg_user'])) {
     // first check the database to make sure 
     // a user does not already exist with the same username and/or email
     $korisnik_check_query = "SELECT * FROM korisnik WHERE ime='$ime' OR email='$email' LIMIT 1";
-    $result = mysqli_query($con, $user_check_query);
+    $result = mysqli_query($con, $korisnik_check_query);
     $korisnik = mysqli_fetch_assoc($result);
     
     if ($korisnik) { // if user exists
