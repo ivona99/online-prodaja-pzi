@@ -6,7 +6,7 @@ $prezime = "";
 $email    = "";
 $errors = array();
 
-$con=mysqli_connect('localhost', 'root', '', 'cosmetic');
+$con=mysqli_connect('localhost:3306', 'fpmoz112019', 'csdigital2019', 'fpmoz112019');
 
 if(!$con){
     die('Conection failed : ' .mysqli_connect_error());
