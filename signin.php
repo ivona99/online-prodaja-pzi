@@ -21,39 +21,13 @@
       </div>
       
       </div>
-    </div>
-  
-  <div class="container">
-       <div class="col-md-6">
-         <form method="POST" action="signin.php">
-           <?php
-               if(!empty($error_message)){
-             ?>
-           <div class="alert alert-danger">
-              <strong>Pogreška!</strong> <?=$error_message ?>
-           </div>
-            <?php
-              }
-             ?>  
-      
-        </div>
-      
-
-             <?php
-                if(!empty($success_message)){
-                ?>
-             <div class="alert alert-success">
-                <strong>Uspješno!</strong> <?=$success_message ?>
-             </div>
-             <?php
-               }
-              ?>  
+  </div> 
         
-           <div class="header">
+           <div class="header" style="margin-left:725px;">
               <h2>Izradite novi korisnički račun</h2>
            </div>
   
-            <form method="post" action="signin.php">
+            <form method="post" action="signin.php" style="margin-left:500px;">
                <?php include('errors.php'); ?>
                <div class="form-group">
                  <label for="ime">Ime: </label>
