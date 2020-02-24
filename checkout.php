@@ -3,7 +3,7 @@
 require_once 'config.php'; 
  
  
-include_once 'Cart.class.php'; 
+include_once 'cart.class.php'; 
 $cart = new Cart; 
  
 //ako je kosara prazna prebaci na stranicu sa proizvodima 
