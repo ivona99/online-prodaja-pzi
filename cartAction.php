@@ -1,6 +1,6 @@
 <?php 
 // inicijalizacija klase  
-require_once 'Cart.class.php'; 
+require_once 'cart.class.php'; 
 $cart = new Cart; 
  
  
