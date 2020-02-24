@@ -1,6 +1,6 @@
 <?php 
  
-include_once 'Cart.class.php'; 
+include_once 'cart.class.php'; 
 $cart = new Cart; 
 ?>
 
